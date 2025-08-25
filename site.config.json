@@ -1,0 +1,16 @@
+{
+  "network": "testnet",
+  "owner": "YOUR_SUI_WALLET_ADDRESS_HERE",
+  "site_name": "my-awesome-walrus-site",
+  "metadata": {
+    "link": "https://yoursite.walrus.site",
+    "image_url": "https://via.placeholder.com/400x200/667eea/ffffff?text=My+Walrus+Site",
+    "name": "My Awesome Walrus Site",
+    "description": "My first decentralized website deployed on Walrus from mobile!",
+    "project_url": "https://github.com/YOUR_USERNAME/my-walrus-site",
+    "creator": "YOUR_NAME_HERE"
+  },
+  "epochs": 5,
+  "path": "./",
+  "write_retry_limit": 3
+}
