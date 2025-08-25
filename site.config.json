@@ -1,6 +1,6 @@
 {
   "network": "testnet",
-  "owner": "YOUR_SUI_WALLET_ADDRESS_HERE",
+  "owner": "0x382c96cb77b634ad25dc90784a05788c5c177db7d3a38e5676306e3f0d0543db",
   "site_name": "my-awesome-walrus-site",
   "metadata": {
     "link": "https://yoursite.walrus.site",
@@ -8,7 +8,7 @@
     "name": "My Awesome Walrus Site",
     "description": "My first decentralized website deployed on Walrus from mobile!",
     "project_url": "https://github.com/YOUR_USERNAME/my-walrus-site",
-    "creator": "YOUR_NAME_HERE"
+    "creator": "KingsCave"
   },
   "epochs": 5,
   "path": "./",
