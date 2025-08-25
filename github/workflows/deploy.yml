@@ -1,0 +1,25 @@
+name: Deploy to Walrus Sites
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Deploy to Walrus Sites
+      uses: zktx-io/walrus-sites-provenance@v0.5.5
+      env:
+        ED25519_PRIVATE_KEY: ${{ secrets.ED25519_PRIVATE_KEY }}
+      
+    - name: Display deployment info
+      run: |
+        echo "🎉 Deployment completed!"
+        echo "Your site is now live on Walrus testnet!"
+        echo "Check the logs above for your site URL."
